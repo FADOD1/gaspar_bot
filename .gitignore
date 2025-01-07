@@ -1,0 +1,11 @@
+# Ignorar diretório node_modules
+node_modules/
+
+# Ignorar arquivos de ambiente
+.env
+
+# Outras configurações opcionais para projetos Node.js
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
