@@ -13,8 +13,8 @@ module.exports = {
                 .setTitle('Ajuda com o bot')
                 .setDescription('Aqui estão as informações sobre o bot e os comandos disponíveis:')
                 .addFields(
-                    { name: '🛠️ Administração', value: '`/enviarmsg` - Envia mensagens em canais específicos.\n`/limpar` - Limpa mensagens em um canal.\n`/ban` - Bane um usuário do servidor.\n`/unban` - Desbane um usuário anteriormente banido.' },
-                    { name: '⚙️ Utilidades', value: '`/embed` - Cria uma embed personalizada com título, descrição, imagens e botões.\n`/help` - Exibe este menu de ajuda com todas as informações do bot.' },
+                    { name: '🛠️ Administração', value: '`/banir` - Bane um usuário do servidor.\n`/desban` - Desbane um usuário anteriormente banido.\n`/fechar_canais` - Fecha canais específicos.\n`/limpar` - Limpa mensagens em um canal.' },
+                    { name: '⚙️ Utilidades', value: '`/abrir_canal` - Abre um canal específico.\n`/embed` - Cria uma embed personalizada.\n`/help` - Exibe este menu de ajuda.\n`/mensagem` - Envia uma mensagem personalizada.\n`/ping` - Mostra a latência do bot.\n`/registro` - Registra informações.\n`/setwelcome` - Define uma mensagem de boas-vindas.\n`/ticket` - Gerencia tickets no servidor.' },
                     { name: '🎮 Entretenimento', value: '`/jogar` - Comando fictício para demonstrar categoria de entretenimento (adicione mais conforme necessário).' }
                 )
                 .addFields(

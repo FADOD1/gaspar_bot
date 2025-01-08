@@ -67,7 +67,7 @@ module.exports = {
 
           // Cria o embed do painel
           const embed = new EmbedBuilder()
-              .setTitle('Painel de Registro')
+              .setTitle('Painel de Registro reaja com os respectivos emojis para receber os cargos')
               .setDescription(
                   rolesData
                       .map(({ roleId, emoji }) => `${emoji} - <@&${roleId}>`)
